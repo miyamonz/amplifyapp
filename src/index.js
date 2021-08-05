@@ -6,7 +6,6 @@ import reportWebVitals from './reportWebVitals';
 import Amplify, {Auth} from 'aws-amplify';
 import config from './aws-exports';
 Amplify.configure(config);
-Auth.configure(config);
 
 ReactDOM.render(
   <React.StrictMode>
